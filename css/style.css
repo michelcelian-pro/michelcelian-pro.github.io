@@ -9551,7 +9551,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #CCCCCC !important;
+  color: #333333 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9612,7 +9612,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #CCCCCC !important;
+  color: #333333 !important;
 }
 
 .text-black-50 {
