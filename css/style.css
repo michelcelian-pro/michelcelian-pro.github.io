@@ -10062,3 +10062,16 @@ img:hover {
   color: #fff;
   border-color: #4A90E2;
 }
+
+/* Fond animé dynamique */
+@keyframes bgGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-animated {
+  background: linear-gradient(-45deg, #1E90FF, #2E8B57, #4A90E2, #003366);
+  background-size: 400% 400%;
+  animation: bgGradient 15s ease infinite;
+}
