@@ -296,49 +296,83 @@
 
     <!-- Portfolio Start -->
 
-    <div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="container-fluid pt-5 pb-3" id="portfolio" style="background-color: #f8f9fa;">
     <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
-            <h1 class="display-2 text-uppercase" style="color: #003366; -webkit-text-stroke: 1px #000;">Portfolio</h1>
+            <h1 class="display-1 text-uppercase" style="color: #4A90E2; -webkit-text-stroke: 1px #000;">Portfolio</h1>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="card h-100 shadow-sm portfolio-card">
-                    <img src="img/seo-carven.jpg" class="card-img-top img-fluid rounded" alt="Optimisation SEO sur Shopify">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Optimisation SEO sur Shopify</h5>
-                        <p class="card-text">Réécriture et intégration de métadescriptions optimisées pour améliorer la visibilité organique des produits sur Google.</p>
-                        <a href="pagecarvenSEO.html" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">Voir le projet</a>
+            <div class="col-12 text-center mb-2">
+                <ul class="list-inline mb-4" id="portfolio-flters">
+                    <li class="btn btn-sm btn-outline-secondary m-1 active" data-filter="*">Tout</li>
+                    <li class="btn btn-sm btn-outline-secondary m-1" data-filter=".first">Informatique</li>
+                    <li class="btn btn-sm btn-outline-secondary m-1" data-filter=".second">Etudes</li>
+                    <li class="btn btn-sm btn-outline-secondary m-1" data-filter=".third">Perso</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="card portfolio-card h-100">
+                    <img src="img/excel.jpg" class="card-img-top" alt="Compétences Excel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Compétences Excel</h5>
+                        <a href="pageexcel.html" target="_blank" class="btn btn-primary">Voir le projet</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="card h-100 shadow-sm portfolio-card">
-                    <img src="img/analytics-carven.jpg" class="card-img-top img-fluid rounded" alt="Analyse des performances e-commerce">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Analyse des performances e-commerce</h5>
-                        <p class="card-text">Analyse des KPI avec Klaviyo et GA4 pour comprendre les parcours utilisateurs et optimiser les campagnes.</p>
-                        <a href="pagecarvenAnalytics.html" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">Voir le projet</a>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="card portfolio-card h-100">
+                    <img src="img/canva.jpg" class="card-img-top" alt="Créations Canva">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Créations Canva</h5>
+                        <a href="pagecanva.html" target="_blank" class="btn btn-primary">Voir le projet</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="card h-100 shadow-sm portfolio-card">
-                    <img src="img/instagram-carven.jpg" class="card-img-top img-fluid rounded" alt="Campagne Instagram (avec l’agence WAISSO)">
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="card portfolio-card h-100">
+                    <img src="https://via.placeholder.com/800x200.png?text=Analytics" class="card-img-top" alt="Analyse de trafic web">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Campagne Instagram (avec l’agence WAISSO)</h5>
-                        <p class="card-text">Campagne social ads en 3 phases (interaction, trafic, achat), avec ciblage par pays et analyse des performances.</p>
-                        <a href="pagecarvenAds.html" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">Voir le projet</a>
+                        <h5 class="card-title">Analyse de trafic web</h5>
+                        <p class="card-text">Etude pour un site e-commerce fictif : sources de trafic, comportement, conversions via Google Analytics.</p>
+                        <a href="pageanalytics.html" target="_blank" class="btn btn-primary mt-auto">Voir le projet</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="card h-100 shadow-sm portfolio-card">
-                    <img src="img/ux-carven.jpg" class="card-img-top img-fluid rounded" alt="Benchmark UX & recommandations tailles">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Benchmark UX & recommandations tailles</h5>
-                        <p class="card-text">Benchmark concurrentiel et ajout de recommandations de tailles sur les fiches produits pour réduire les retours clients.</p>
-                        <a href="pagecarvenUX.html" target="_blank" class="btn btn-outline-primary btn-sm mt-auto">Voir le projet</a>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="card portfolio-card h-100">
+                    <img src="img/cybervitrine.jpg" class="card-img-top" alt="Site vitrine">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cyber vitrine</h5>
+                        <a href="pagevitrine.html" target="_blank" class="btn btn-primary">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="card portfolio-card h-100">
+                    <img src="img/SAE.jpg" class="card-img-top" alt="Projet SAE">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet SAE</h5>
+                        <a href="pageSAE.html" target="_blank" class="btn btn-primary">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="card portfolio-card h-100">
+                    <img src="img/Stages.jpg" class="card-img-top" alt="Stages">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Stages</h5>
+                        <a href="pageStages.html" target="_blank" class="btn btn-primary">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="card portfolio-card h-100">
+                    <img src="img/Perso.jpg" class="card-img-top" alt="Projets personnels">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projets personnels</h5>
+                        <a href="pagePerso.html" target="_blank" class="btn btn-primary">Voir le projet</a>
                     </div>
                 </div>
             </div>

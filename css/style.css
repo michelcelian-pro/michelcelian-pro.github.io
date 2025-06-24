@@ -10014,9 +10014,51 @@ img:hover {
 
 .portfolio-card {
   transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .portfolio-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.portfolio-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-card .card-body {
+  padding: 15px;
+}
+
+.portfolio-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.portfolio-card .card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.portfolio-card .btn {
+  background-color: #4A90E2;
+  border-color: #4A90E2;
+  font-weight: 500;
+}
+
+.portfolio-card .btn:hover {
+  background-color: #3a78c2;
+  border-color: #3a78c2;
+}
+
+#portfolio-flters .btn-outline-secondary.active {
+  background-color: #4A90E2;
+  color: #fff;
+  border-color: #4A90E2;
 }
